@@ -25,10 +25,18 @@
     <h1 id="title">A Survey Form</h1>
     <p id="description">My first survey form</p>
     <form id="survey-form">
-      <input id="name" type="text"/> 
-      <input id="email" type="email"/>
+      <label id="name-label">Name: </label>
+      <input id="name" type="text" placeholder="Enter your name" />
+      <label id="email-label">Email: </label> 
+      <input id="email" type="email" placeholder="Enter your email" />
+      <label id="number-label">Age: </label>
       <input id="number" type="number"
-      min="15" max="80"/>
+      min="15" max="80" placeholder="Age" />
+      <label >Dropdown: </label>
+      <input id="dropdown" type="dropdown"/>
+      <label> Gender: </label>
+      <input type="radio" name="gender"/>
+      <input type="radio" name="gender"/>
     </form> 
     <script  src="js/index.js"></script>
   </body>
